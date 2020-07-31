@@ -11,7 +11,7 @@ def install_flit_dev_deps(session):
 @nox.session(python=["3.7", "3.8"])
 def tests(session):
     install_flit_dev_deps(session)
-    session.run("pytest", "--cov={{cookiecutter.package_name}}", "--cov-report=html", "tests")
+    session.run("pytest", "--cov={{cookiecutter.package_name}}", "--cov-report=xml:cov.xml", "tests")
 
 
 @nox.session(python=["3.7"])
