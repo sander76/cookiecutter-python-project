@@ -9,4 +9,6 @@ def prep_project(ctx):
     print(">> Installing flit")
     ctx.run("venv\\Scripts\\python.exe -m pip install flit")
     print(">> Installing flit dependencies")
-    ctx.run("venv\\Scripts\\python.exe -m flit install")
+    ctx.run("venv\\Scripts\\python.exe -m flit install --pth-file --deps all")
+    print(">> Installing pre-commit")
+
