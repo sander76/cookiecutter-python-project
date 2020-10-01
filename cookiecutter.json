@@ -1,5 +1,5 @@
 {
     "package_name": "my_new_package",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
     "package_version": "0.0.1"
 }
