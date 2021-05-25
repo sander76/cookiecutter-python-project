@@ -3,7 +3,7 @@ requires = ["flit_core >=2,<3"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
-module = "{{cookiecutter.package_name}}"
+module = "{{cookiecutter.project_slug}}"
 description-file = "README.md"
 author = "Sander Teunissen"
 requires-python=">=3.7"

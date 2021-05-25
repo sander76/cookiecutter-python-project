@@ -2,4 +2,5 @@
 
 Make sure you have invoke globally installed.
 
-run `invoke prep-project` to further init the repo.
+- execute `cookiecutter <cookiecutter repo>`
+- run `invoke prep-project` to further init the repo.
